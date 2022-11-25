@@ -2,7 +2,7 @@
 CREATE SCHEMA project1;
 USE project1;
 
-#Creamos la tabla SQL que es la madre del resto 
+#Creamos la tabla data_SQL que es la madre del resto 
 CREATE TABLE project1.data_sql (
 	index_sql INT AUTO_INCREMENT NOT NULL,
 	q10_part_1 VARCHAR (500) DEFAULT NULL,	
@@ -26,5 +26,9 @@ CREATE TABLE project1.data_sql (
 	PRIMARY KEY (index_sql)
 );
 
+
+# Código para eliminar la columna d482xta
+ALTER TABLE data_sql 
+DROP COLUMN d482xta;
 
 
