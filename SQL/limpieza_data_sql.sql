@@ -1,9 +1,5 @@
 USE project1;
 
-# Código para eliminar la columna d482xta de la tabla data_sql
-ALTER TABLE data_sql 
-DROP COLUMN d482xta;
-
 #Cambiamos los "ERROR" por NULL en la tabla data_sql
 UPDATE data_sql
 SET q10_part_1 = NULL, q10_part_2 = NULL, q10_part_3 = NULL,
@@ -16,3 +12,7 @@ OR q10_part_7 = "ERROR" OR q10_part_8 = "ERROR" OR q10_part_9 = "ERROR"
 OR q10_part_10 = "ERROR" OR q10_part_11 = "ERROR" OR q10_part_12 = "ERROR" 
 OR q10_part_13 = "ERROR" OR q10_part_14 = "ERROR" OR q10_part_15 = "ERROR" OR q10_part_16 = "ERROR"
 OR q10_other = "ERROR" OR d482xta = "ERROR";
+
+# Código para eliminar la columna d482xta de la tabla data_sql
+ALTER TABLE data_sql 
+DROP COLUMN d482xta;

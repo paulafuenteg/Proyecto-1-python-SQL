@@ -27,8 +27,5 @@ CREATE TABLE project1.data_sql (
 );
 
 
-# Código para eliminar la columna d482xta
-ALTER TABLE data_sql 
-DROP COLUMN d482xta;
 
 
