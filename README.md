@@ -52,4 +52,4 @@ Herramientas y tecnologias utilizadas
 
 Resultado final
 
-Presentamos un proceso automatizado para lectura y limpieza de datos de ficheros en formato xml y txt, y su porterior inserción en una BBDD.
+Presentamos una BBDD con 3 tablas bajo un proceso automatizado para lectura y limpieza de datos de ficheros en formato xml y txt, y su porterior inserción en una BBDD.
