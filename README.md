@@ -1,8 +1,6 @@
 # project-da-promo-c-module-1-team-2
-
-Equipo 2: Delfín
  
-Descripción del proyecto
+### Descripción del proyecto
 
 El proyecto se basa en la aplicación de los métodos de tratamiento de datos aprendidos a lo largo del primer módulo del bootcamp Data Analitycs Promo C de Adalab.
 
