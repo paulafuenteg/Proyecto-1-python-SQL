@@ -1,4 +1,4 @@
-# project-da-promo-c-module-1-team-2
+# Proyecto python + SQL
  
 ### Descripción del proyecto
 
